@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          >
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Gender:"
+              android:textSize="40sp"
+              android:paddingRight="5dp"
+              android:layout_marginTop="10dp"
+              android:textColor="@color/black"
+              />
+
+
+          <RadioGroup
+              android:id="@+id/radioGroup"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_marginTop="15dp"
+              >
+
+
+              <RadioButton
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Male"
+                  android:textSize="30sp"
+                  android:layout_marginRight="10dp"
+                  />
+              <RadioButton
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Female"
+                  android:textSize="30sp"
+                  />
+          </RadioGroup>
+
+
+      </LinearLayout>
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         >
+
+
+      <RadioGroup
+          android:id="@+id/radioGroup2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+
+          <RadioButton
+              android:id="@+id/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Android"
+              android:textSize="25sp"
+              />
+
+          <RadioButton
+              android:id="@+id/ios"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="IOS"
+              android:textSize="25sp"
+              />
+          <RadioButton
+              android:id="@+id/windows"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Windows"
+              android:textSize="25sp"
+              />
+      </RadioGroup>
+         <TextView
+             android:id="@+id/text1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:textSize="25sp"
+             android:layout_marginTop="50dp"
+             android:layout_marginLeft="50dp"
+
+             />
+
+
+     </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:orientation="vertical"
+          android:layout_height="wrap_content">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Pet"
+              android:textSize="40sp"
+              />
+          <RadioGroup
+              android:id="@+id/radioGroup3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Dog"
+                  android:textSize="25sp"
+                  />
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Cat"
+                  android:textSize="25sp"
+                  />
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Bird"
+                  android:textSize="25sp"
+                  />
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Fish"
+                  android:textSize="25sp"
+                  />
+
+          </RadioGroup>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          >
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Choose a GfG course"
+              android:textSize="30sp"
+              android:textColor="#61FF00"
+              android:layout_marginLeft="50dp"
+              />
+
+          <RadioGroup
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              >
+
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Amozon Sde Test Series"
+                  android:textSize="23sp"
+                  />
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Placement 100"
+                  android:textSize="23sp"
+                  />
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="C++ STL"
+                  android:textSize="23sp"
+                  />
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="CS Core Subjects"
+                  android:textSize="23sp"
+                  />
+              <RadioButton
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="DSA Self paced"
+                  android:textSize="23sp"
+                  />
+          </RadioGroup>
+
+          <com.google.android.material.button.MaterialButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="#4CAF50"
+              android:text="Submit"
+              android:layout_marginLeft="150dp"
+              android:layout_marginTop="20dp"
+              />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_marginTop="20dp"
+          android:gravity="center"
+          android:layout_gravity="center"
+          >
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Suggest Your Mobile OS"
+              android:textSize="35sp"
+              android:gravity="center"
+              android:layout_gravity="center"
+              />
+          <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+              android:layout_width="300dp"
+              android:layout_height="wrap_content"
+              android:hint="Your system"
+
+              />
+
+
+      </LinearLayout>
+
+
+  </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>
